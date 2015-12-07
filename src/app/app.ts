@@ -10,6 +10,8 @@ import {Http, Headers} from 'angular2/http';
  */
 import {ROUTER_DIRECTIVES} from 'angular2/router';
 
+import { DateTimeCmp } from './datetime';
+
 
 /*
  * Directive
@@ -41,7 +43,7 @@ export class XLarge {
   selector: 'app', // <app></app>
   // We need to tell Angular's compiler which directives are in our template.
   // Doing so will allow Angular to attach our behavior to an element
-  directives: [ ROUTER_DIRECTIVES, XLarge ],
+  directives: [ ROUTER_DIRECTIVES, XLarge, DateTimeCmp ],
   // Our list of styles in our component. We may add more to compose many styles together
   styles: [`
     .title {
@@ -56,6 +58,8 @@ export class XLarge {
   <header>
     <h1 class="title">Hello {{ title }}</h1>
   </header>
+  
+  <date-time></date-time>
 
   <main>
     Your Content Here

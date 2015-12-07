@@ -29,6 +29,7 @@
   "dependencies": {
     "@reactivex/rxjs": "5.0.0-alpha.12",
     "angular2": "2.0.0-alpha.48",
+    "moment": "^2.10.6",
     "reflect-metadata": "0.1.2",
     "zone.js": "0.5.8"
   },
