@@ -3,4 +3,4 @@
  */
 /// <reference path="browser.d.ts" />
 /// <reference path="webpack.d.ts" />
-/// <reference path="../../typings/tsd.d.ts" />
+/// <reference path="./tsd/tsd.d.ts" />
