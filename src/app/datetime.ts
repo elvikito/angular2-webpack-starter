@@ -1,5 +1,5 @@
 import { Component } from 'angular2/angular2';
-import * as moment from 'moment/moment';
+import * as moment from 'moment';
 
 @Component({
 	selector: 'date-time',
